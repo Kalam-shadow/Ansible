@@ -1,0 +1,789 @@
+2025-10-09 14:21:47,503 p=871 u=kalam n=ansible ERROR| [ERROR]: A worker was found in a dead state
+
+2025-10-10 12:40:01,689 p=1194 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 65.2.130.106 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 12:40:01,690 p=1194 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 65.2.130.106 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-10 12:49:11,641 p=1261 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 65.2.130.106 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 12:49:11,642 p=1261 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 65.2.130.106 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-10 12:56:00,639 p=1306 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 12:56:00,639 p=1306 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-10 12:56:49,841 p=1313 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 12:56:49,842 p=1313 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-10 12:57:35,131 p=1327 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 12:57:35,132 p=1327 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-10 13:01:11,391 p=1369 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: Warning: Permanently added '3.109.217.84' (ED25519) to the list of known hosts.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0755 for 'abyss.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "abyss.pem": bad permissions
+ec2-user@3.109.217.84: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 13:01:11,391 p=1369 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: Warning: Permanently added '3.109.217.84' (ED25519) to the list of known hosts.\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\nPermissions 0755 for 'abyss.pem' are too open.\r\nIt is required that your private key files are NOT accessible by others.\r\nThis private key will be ignored.\r\nLoad key \"abyss.pem\": bad permissions\r\nec2-user@3.109.217.84: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).",
+    "unreachable": true
+}
+2025-10-10 13:01:52,898 p=1380 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: No route to host
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-10 13:01:52,899 p=1380 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.109.217.84 port 22: No route to host",
+    "unreachable": true
+}
+2025-10-10 13:02:29,610 p=1393 u=kalam n=ansible WARNING| [WARNING]: Host 'ec2' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.19/reference_appendices/interpreter_discovery.html for more information.
+
+2025-10-10 13:02:29,611 p=1393 u=kalam n=ansible INFO| ec2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-10-10 13:10:21,893 p=1476 u=kalam n=ansible INFO| PLAY [Install OpenJDK 11 on EC2] *************************************************************************************************
+2025-10-10 13:10:21,905 p=1476 u=kalam n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************
+2025-10-10 13:10:32,718 p=1476 u=kalam n=ansible WARNING| [WARNING]: Host 'ec2' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.19/reference_appendices/interpreter_discovery.html for more information.
+
+2025-10-10 13:10:32,718 p=1476 u=kalam n=ansible INFO| ok: [ec2]
+2025-10-10 13:10:32,732 p=1476 u=kalam n=ansible INFO| TASK [Install OpenJDK 11] ********************************************************************************************************
+2025-10-10 13:11:02,137 p=1476 u=kalam n=ansible INFO| changed: [ec2]
+2025-10-10 13:11:02,150 p=1476 u=kalam n=ansible INFO| TASK [Verify Java installation] **************************************************************************************************
+2025-10-10 13:11:09,453 p=1476 u=kalam n=ansible INFO| changed: [ec2]
+2025-10-10 13:11:09,466 p=1476 u=kalam n=ansible INFO| TASK [Show Java version] *********************************************************************************************************
+2025-10-10 13:11:09,495 p=1476 u=kalam n=ansible INFO| ok: [ec2] => {
+    "java_check.stdout_lines": []
+}
+2025-10-10 13:11:09,496 p=1476 u=kalam n=ansible INFO| PLAY RECAP ***********************************************************************************************************************
+2025-10-10 13:11:09,497 p=1476 u=kalam n=ansible INFO| ec2                        : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-15 13:29:59,722 p=1235 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.110.220.116 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-15 13:29:59,724 p=1235 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.110.220.116 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-15 13:32:38,515 p=1260 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.110.220.116 port 22: Connection timed out
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2025-10-15 13:32:38,516 p=1260 u=kalam n=ansible INFO| ec2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 3.110.220.116 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-10-15 13:34:26,212 p=1274 u=kalam n=ansible WARNING| [WARNING]: Host 'ec2' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.19/reference_appendices/interpreter_discovery.html for more information.
+
+2025-10-15 13:34:26,213 p=1274 u=kalam n=ansible INFO| ec2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-10-15 13:36:14,080 p=1296 u=kalam n=ansible ERROR| [ERROR]: A worker was found in a dead state
+
+2025-10-15 13:37:02,105 p=1306 u=kalam n=ansible ERROR| [ERROR]: A worker was found in a dead state
+
+2025-10-15 13:38:53,770 p=1326 u=kalam n=ansible ERROR| [ERROR]: A worker was found in a dead state
+
+2025-10-15 13:39:23,408 p=1336 u=kalam n=ansible WARNING| [WARNING]: Host 'ec2' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.19/reference_appendices/interpreter_discovery.html for more information.
+
+2025-10-15 13:39:23,409 p=1336 u=kalam n=ansible INFO| ec2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-10-15 13:40:40,847 p=1433 u=kalam n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: att
+
+2025-10-15 13:40:40,848 p=1433 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************
+2025-10-15 13:40:40,849 p=1433 u=kalam n=ansible INFO| skipping: no hosts matched
+2025-10-15 13:40:40,849 p=1433 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************
+2025-10-15 13:41:40,397 p=1456 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************
+2025-10-15 13:41:40,422 p=1456 u=kalam n=ansible INFO| TASK [Gathering Facts] *************************************************************************************************************************
+2025-10-15 13:41:50,241 p=1456 u=kalam n=ansible WARNING| [WARNING]: Host 'ec2' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.19/reference_appendices/interpreter_discovery.html for more information.
+
+2025-10-15 13:41:50,241 p=1456 u=kalam n=ansible INFO| ok: [ec2]
+2025-10-15 13:41:50,256 p=1456 u=kalam n=ansible INFO| TASK [Install the latest version of Apache] ****************************************************************************************************
+2025-10-15 13:42:11,617 p=1456 u=kalam n=ansible INFO| changed: [ec2]
+2025-10-15 13:42:11,635 p=1456 u=kalam n=ansible INFO| TASK [Start and enable httpd service] **********************************************************************************************************
+2025-10-15 13:42:19,500 p=1456 u=kalam n=ansible INFO| changed: [ec2]
+2025-10-15 13:42:19,507 p=1456 u=kalam n=ansible INFO| TASK [Deploy HTML file] ************************************************************************************************************************
+2025-10-15 13:42:29,339 p=1456 u=kalam n=ansible INFO| changed: [ec2]
+2025-10-15 13:42:29,340 p=1456 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************
+2025-10-15 13:42:29,340 p=1456 u=kalam n=ansible INFO| ec2                        : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-16 12:57:23,380 p=10085 u=kalam n=ansible INFO| Starting galaxy collection install process
+2025-10-16 12:57:23,605 p=10085 u=kalam n=ansible WARNING| [WARNING]: Collection cloud.common does not support Ansible version 2.19.1
+
+2025-10-16 12:57:23,678 p=10085 u=kalam n=ansible INFO| Nothing to do. All requested collections are already installed. If you want to reinstall them, consider using `--force`.
+2025-10-16 13:25:51,351 p=10817 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'auto' plugin: inventory source '/home/kalam/ansible/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+
+Failed to parse inventory with 'auto' plugin.
+
+<<< caused by >>>
+
+inventory source '/home/kalam/ansible/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+Origin: <inventory plugin 'auto' with source '/home/kalam/ansible/aws_plugin.yml'>
+
+
+2025-10-16 13:25:51,351 p=10817 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'yaml' plugin: Plugin configuration YAML file, not YAML inventory
+
+Failed to parse inventory with 'yaml' plugin.
+
+<<< caused by >>>
+
+Plugin configuration YAML file, not YAML inventory
+Origin: <inventory plugin 'yaml' with source '/home/kalam/ansible/aws_plugin.yml'>
+
+
+2025-10-16 13:25:51,351 p=10817 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'ini' plugin: Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+Failed to parse inventory with 'ini' plugin.
+
+<<< caused by >>>
+
+Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+Origin: /home/kalam/ansible/aws_plugin.yml
+
+
+2025-10-16 13:25:51,352 p=10817 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/aws_plugin.yml as an inventory source
+
+2025-10-16 13:25:51,352 p=10817 u=kalam n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-10-16 13:25:51,360 p=10817 u=kalam n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-10-16 13:25:51,591 p=10817 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:25:51,592 p=10817 u=kalam n=ansible INFO| skipping: no hosts matched
+2025-10-16 13:25:51,592 p=10817 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:27:12,271 p=10831 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'auto' plugin: inventory source '/home/kalam/ansible/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+
+Failed to parse inventory with 'auto' plugin.
+
+<<< caused by >>>
+
+inventory source '/home/kalam/ansible/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+Origin: <inventory plugin 'auto' with source '/home/kalam/ansible/aws_plugin.yml'>
+
+
+2025-10-16 13:27:12,271 p=10831 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'yaml' plugin: Plugin configuration YAML file, not YAML inventory
+
+Failed to parse inventory with 'yaml' plugin.
+
+<<< caused by >>>
+
+Plugin configuration YAML file, not YAML inventory
+Origin: <inventory plugin 'yaml' with source '/home/kalam/ansible/aws_plugin.yml'>
+
+
+2025-10-16 13:27:12,272 p=10831 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'ini' plugin: Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+Failed to parse inventory with 'ini' plugin.
+
+<<< caused by >>>
+
+Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+Origin: /home/kalam/ansible/aws_plugin.yml
+
+
+2025-10-16 13:27:12,272 p=10831 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/aws_plugin.yml as an inventory source
+
+2025-10-16 13:27:12,272 p=10831 u=kalam n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-10-16 13:27:12,278 p=10831 u=kalam n=ansible INFO| {
+    "_meta": {
+        "hostvars": {},
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-10-16 13:28:43,929 p=10865 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'auto' plugin: inventory source '/home/kalam/ansible/inventory/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+
+Failed to parse inventory with 'auto' plugin.
+
+<<< caused by >>>
+
+inventory source '/home/kalam/ansible/inventory/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+Origin: <inventory plugin 'auto' with source '/home/kalam/ansible/inventory/aws_plugin.yml'>
+
+
+2025-10-16 13:28:43,930 p=10865 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'yaml' plugin: Plugin configuration YAML file, not YAML inventory
+
+Failed to parse inventory with 'yaml' plugin.
+
+<<< caused by >>>
+
+Plugin configuration YAML file, not YAML inventory
+Origin: <inventory plugin 'yaml' with source '/home/kalam/ansible/inventory/aws_plugin.yml'>
+
+
+2025-10-16 13:28:43,930 p=10865 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'ini' plugin: Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+Failed to parse inventory with 'ini' plugin.
+
+<<< caused by >>>
+
+Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+Origin: /home/kalam/ansible/inventory/aws_plugin.yml
+
+
+2025-10-16 13:28:43,930 p=10865 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/inventory/aws_plugin.yml as an inventory source
+
+2025-10-16 13:28:43,930 p=10865 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/inventory as an inventory source
+
+2025-10-16 13:28:43,931 p=10865 u=kalam n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-10-16 13:28:43,935 p=10865 u=kalam n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-10-16 13:28:44,048 p=10865 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:28:44,048 p=10865 u=kalam n=ansible INFO| skipping: no hosts matched
+2025-10-16 13:28:44,048 p=10865 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:29:24,734 p=10872 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'auto' plugin: inventory source '/home/kalam/ansible/inventory/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+
+Failed to parse inventory with 'auto' plugin.
+
+<<< caused by >>>
+
+inventory source '/home/kalam/ansible/inventory/aws_plugin.yml' could not be verified by inventory plugin 'amazon.aws.aws_ec2'
+Origin: <inventory plugin 'auto' with source '/home/kalam/ansible/inventory/aws_plugin.yml'>
+
+
+2025-10-16 13:29:24,734 p=10872 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'yaml' plugin: Plugin configuration YAML file, not YAML inventory
+
+Failed to parse inventory with 'yaml' plugin.
+
+<<< caused by >>>
+
+Plugin configuration YAML file, not YAML inventory
+Origin: <inventory plugin 'yaml' with source '/home/kalam/ansible/inventory/aws_plugin.yml'>
+
+
+2025-10-16 13:29:24,734 p=10872 u=kalam n=ansible WARNING| [WARNING]: Failed to parse inventory with 'ini' plugin: Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+Failed to parse inventory with 'ini' plugin.
+
+<<< caused by >>>
+
+Failed to parse inventory: Invalid host pattern 'plugin:' supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+Origin: /home/kalam/ansible/inventory/aws_plugin.yml
+
+
+2025-10-16 13:29:24,735 p=10872 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/inventory/aws_plugin.yml as an inventory source
+
+2025-10-16 13:29:24,735 p=10872 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/inventory as an inventory source
+
+2025-10-16 13:29:24,735 p=10872 u=kalam n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-10-16 13:29:24,740 p=10872 u=kalam n=ansible INFO| {
+    "_meta": {
+        "hostvars": {},
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-10-16 13:32:56,682 p=10937 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/inventory/aws_plugin.yml as an inventory source
+
+2025-10-16 13:32:56,683 p=10937 u=kalam n=ansible WARNING| [WARNING]: Unable to parse /home/kalam/ansible/inventory as an inventory source
+
+2025-10-16 13:32:56,683 p=10937 u=kalam n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-10-16 13:32:56,687 p=10937 u=kalam n=ansible INFO| {
+    "_meta": {
+        "hostvars": {},
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-10-16 13:34:44,911 p=10962 u=kalam n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2025-10-16 13:34:44,911 p=10962 u=kalam n=ansible INFO| [DEPRECATION WARNING]: Passing `disable_lookups` to `template` is deprecated. This feature will be removed from ansible-core version 2.23.
+
+2025-10-16 13:34:44,930 p=10962 u=kalam n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-16 13:34:46,011 p=10962 u=kalam n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2025-10-16 13:34:46,013 p=10962 u=kalam n=ansible INFO| {
+    "_meta": {
+        "hostvars": {
+            "ec2-13-232-69-177.ap-south-1.compute.amazonaws.com": {
+                "ami_launch_index": 0,
+                "ansible_host": {
+                    "__ansible_unsafe": "13.232.69.177"
+                },
+                "architecture": {
+                    "__ansible_unsafe": "x86_64"
+                },
+                "block_device_mappings": [
+                    {
+                        "device_name": {
+                            "__ansible_unsafe": "/dev/xvda"
+                        },
+                        "ebs": {
+                            "attach_time": "2025-10-16T07:54:00+00:00",
+                            "delete_on_termination": true,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            },
+                            "volume_id": {
+                                "__ansible_unsafe": "vol-04ddb80e56078acec"
+                            }
+                        }
+                    }
+                ],
+                "boot_mode": {
+                    "__ansible_unsafe": "uefi-preferred"
+                },
+                "capacity_reservation_specification": {
+                    "capacity_reservation_preference": {
+                        "__ansible_unsafe": "open"
+                    }
+                },
+                "client_token": {
+                    "__ansible_unsafe": "terraform-20251016075353147700000001"
+                },
+                "cpu_options": {
+                    "core_count": 1,
+                    "threads_per_core": 1
+                },
+                "current_instance_boot_mode": {
+                    "__ansible_unsafe": "legacy-bios"
+                },
+                "ebs_optimized": false,
+                "ena_support": true,
+                "enclave_options": {
+                    "enabled": false
+                },
+                "hibernation_options": {
+                    "configured": false
+                },
+                "hypervisor": {
+                    "__ansible_unsafe": "xen"
+                },
+                "image_id": {
+                    "__ansible_unsafe": "ami-06fa3f12191aa3337"
+                },
+                "instance_id": {
+                    "__ansible_unsafe": "i-0001cbddea34db6ff"
+                },
+                "instance_type": {
+                    "__ansible_unsafe": "t2.micro"
+                },
+                "key_name": {
+                    "__ansible_unsafe": "abyss"
+                },
+                "launch_time": "2025-10-16T07:53:59+00:00",
+                "maintenance_options": {
+                    "auto_recovery": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "metadata_options": {
+                    "http_endpoint": {
+                        "__ansible_unsafe": "enabled"
+                    },
+                    "http_protocol_ipv6": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "http_put_response_hop_limit": 2,
+                    "http_tokens": {
+                        "__ansible_unsafe": "required"
+                    },
+                    "instance_metadata_tags": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "state": {
+                        "__ansible_unsafe": "applied"
+                    }
+                },
+                "monitoring": {
+                    "state": {
+                        "__ansible_unsafe": "disabled"
+                    }
+                },
+                "network_interfaces": [
+                    {
+                        "association": {
+                            "ip_owner_id": {
+                                "__ansible_unsafe": "amazon"
+                            },
+                            "public_dns_name": {
+                                "__ansible_unsafe": "ec2-13-232-69-177.ap-south-1.compute.amazonaws.com"
+                            },
+                            "public_ip": {
+                                "__ansible_unsafe": "13.232.69.177"
+                            }
+                        },
+                        "attachment": {
+                            "attach_time": "2025-10-16T07:53:59+00:00",
+                            "attachment_id": {
+                                "__ansible_unsafe": "eni-attach-0be4db26379c4542b"
+                            },
+                            "delete_on_termination": true,
+                            "device_index": 0,
+                            "network_card_index": 0,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            }
+                        },
+                        "description": {
+                            "__ansible_unsafe": ""
+                        },
+                        "groups": [
+                            {
+                                "group_id": {
+                                    "__ansible_unsafe": "sg-0aa9e939d07e6a7fc"
+                                },
+                                "group_name": {
+                                    "__ansible_unsafe": "launch-wizard-1"
+                                }
+                            }
+                        ],
+                        "interface_type": {
+                            "__ansible_unsafe": "interface"
+                        },
+                        "ipv6_addresses": [],
+                        "mac_address": {
+                            "__ansible_unsafe": "02:0d:13:f9:db:d5"
+                        },
+                        "network_interface_id": {
+                            "__ansible_unsafe": "eni-03b1411756f38ad3c"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "owner_id": {
+                            "__ansible_unsafe": "444598752116"
+                        },
+                        "private_dns_name": {
+                            "__ansible_unsafe": "ip-172-31-43-74.ap-south-1.compute.internal"
+                        },
+                        "private_ip_address": {
+                            "__ansible_unsafe": "172.31.43.74"
+                        },
+                        "private_ip_addresses": [
+                            {
+                                "association": {
+                                    "ip_owner_id": {
+                                        "__ansible_unsafe": "amazon"
+                                    },
+                                    "public_dns_name": {
+                                        "__ansible_unsafe": "ec2-13-232-69-177.ap-south-1.compute.amazonaws.com"
+                                    },
+                                    "public_ip": {
+                                        "__ansible_unsafe": "13.232.69.177"
+                                    }
+                                },
+                                "primary": true,
+                                "private_dns_name": {
+                                    "__ansible_unsafe": "ip-172-31-43-74.ap-south-1.compute.internal"
+                                },
+                                "private_ip_address": {
+                                    "__ansible_unsafe": "172.31.43.74"
+                                }
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "status": {
+                            "__ansible_unsafe": "in-use"
+                        },
+                        "subnet_id": {
+                            "__ansible_unsafe": "subnet-00027274a9e69bf43"
+                        },
+                        "vpc_id": {
+                            "__ansible_unsafe": "vpc-013874b07662a54bf"
+                        }
+                    }
+                ],
+                "network_performance_options": {
+                    "bandwidth_weighting": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "operator": {
+                    "managed": false
+                },
+                "owner_id": {
+                    "__ansible_unsafe": "444598752116"
+                },
+                "placement": {
+                    "availability_zone": {
+                        "__ansible_unsafe": "ap-south-1a"
+                    },
+                    "group_name": {
+                        "__ansible_unsafe": ""
+                    },
+                    "region": {
+                        "__ansible_unsafe": "ap-south-1"
+                    },
+                    "tenancy": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "platform_details": {
+                    "__ansible_unsafe": "Linux/UNIX"
+                },
+                "private_dns_name": {
+                    "__ansible_unsafe": "ip-172-31-43-74.ap-south-1.compute.internal"
+                },
+                "private_dns_name_options": {
+                    "enable_resource_name_dns_a_record": false,
+                    "enable_resource_name_dns_aaaa_record": false,
+                    "hostname_type": {
+                        "__ansible_unsafe": "ip-name"
+                    }
+                },
+                "private_ip_address": {
+                    "__ansible_unsafe": "172.31.43.74"
+                },
+                "product_codes": [],
+                "public_dns_name": {
+                    "__ansible_unsafe": "ec2-13-232-69-177.ap-south-1.compute.amazonaws.com"
+                },
+                "public_ip_address": {
+                    "__ansible_unsafe": "13.232.69.177"
+                },
+                "requester_id": {
+                    "__ansible_unsafe": ""
+                },
+                "reservation_id": {
+                    "__ansible_unsafe": "r-05a9f4629df16a8d8"
+                },
+                "root_device_name": {
+                    "__ansible_unsafe": "/dev/xvda"
+                },
+                "root_device_type": {
+                    "__ansible_unsafe": "ebs"
+                },
+                "security_groups": [
+                    {
+                        "group_id": {
+                            "__ansible_unsafe": "sg-0aa9e939d07e6a7fc"
+                        },
+                        "group_name": {
+                            "__ansible_unsafe": "launch-wizard-1"
+                        }
+                    }
+                ],
+                "source_dest_check": true,
+                "state": {
+                    "code": 16,
+                    "name": {
+                        "__ansible_unsafe": "running"
+                    }
+                },
+                "state_transition_reason": {
+                    "__ansible_unsafe": ""
+                },
+                "subnet_id": {
+                    "__ansible_unsafe": "subnet-00027274a9e69bf43"
+                },
+                "tags": {
+                    "Name": {
+                        "__ansible_unsafe": "terra2"
+                    }
+                },
+                "usage_operation": {
+                    "__ansible_unsafe": "RunInstances"
+                },
+                "usage_operation_update_time": "2025-10-16T07:53:59+00:00",
+                "virtualization_type": {
+                    "__ansible_unsafe": "hvm"
+                },
+                "vpc_id": {
+                    "__ansible_unsafe": "vpc-013874b07662a54bf"
+                }
+            }
+        },
+        "profile": "inventory_legacy"
+    },
+    "_terra2": {
+        "hosts": [
+            "ec2-13-232-69-177.ap-south-1.compute.amazonaws.com"
+        ]
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "aws_ec2",
+            "_terra2"
+        ]
+    },
+    "aws_ec2": {
+        "hosts": [
+            "ec2-13-232-69-177.ap-south-1.compute.amazonaws.com"
+        ]
+    }
+}
+2025-10-16 13:36:06,044 p=11015 u=kalam n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2025-10-16 13:36:06,045 p=11015 u=kalam n=ansible INFO| [DEPRECATION WARNING]: Passing `disable_lookups` to `template` is deprecated. This feature will be removed from ansible-core version 2.23.
+
+2025-10-16 13:36:06,062 p=11015 u=kalam n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-16 13:36:06,839 p=11015 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:36:06,862 p=11015 u=kalam n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2025-10-16 13:36:06,864 p=11015 u=kalam n=ansible INFO| TASK [Gathering Facts] *************************************************************************************************************************************
+2025-10-16 13:36:36,955 p=11015 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 13.232.69.177 port 22: Connection timed out
+
+2025-10-16 13:36:36,955 p=11015 u=kalam n=ansible INFO| fatal: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 13.232.69.177 port 22: Connection timed out", "unreachable": true}
+2025-10-16 13:36:36,959 p=11015 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:36:36,959 p=11015 u=kalam n=ansible INFO| ec2-13-232-69-177.ap-south-1.compute.amazonaws.com : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-16 13:37:07,453 p=11029 u=kalam n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2025-10-16 13:37:07,454 p=11029 u=kalam n=ansible INFO| [DEPRECATION WARNING]: Passing `disable_lookups` to `template` is deprecated. This feature will be removed from ansible-core version 2.23.
+
+2025-10-16 13:37:07,477 p=11029 u=kalam n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-16 13:37:09,672 p=11029 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:37:09,685 p=11029 u=kalam n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2025-10-16 13:37:09,687 p=11029 u=kalam n=ansible INFO| TASK [Gathering Facts] *************************************************************************************************************************************
+2025-10-16 13:37:11,984 p=11029 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: Warning: Permanently added '13.232.69.177' (ED25519) to the list of known hosts.
+ansible@13.232.69.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+
+2025-10-16 13:37:11,985 p=11029 u=kalam n=ansible INFO| fatal: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: Warning: Permanently added '13.232.69.177' (ED25519) to the list of known hosts.\r\nansible@13.232.69.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).", "unreachable": true}
+2025-10-16 13:37:11,985 p=11029 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:37:11,985 p=11029 u=kalam n=ansible INFO| ec2-13-232-69-177.ap-south-1.compute.amazonaws.com : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-16 13:37:14,675 p=11035 u=kalam n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2025-10-16 13:37:14,676 p=11035 u=kalam n=ansible INFO| [DEPRECATION WARNING]: Passing `disable_lookups` to `template` is deprecated. This feature will be removed from ansible-core version 2.23.
+
+2025-10-16 13:37:14,694 p=11035 u=kalam n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-16 13:37:18,021 p=11035 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:37:18,028 p=11035 u=kalam n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2025-10-16 13:37:18,029 p=11035 u=kalam n=ansible INFO| TASK [Gathering Facts] *************************************************************************************************************************************
+2025-10-16 13:37:19,286 p=11035 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ansible@13.232.69.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+2025-10-16 13:37:19,287 p=11035 u=kalam n=ansible INFO| fatal: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ansible@13.232.69.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).", "unreachable": true}
+2025-10-16 13:37:19,288 p=11035 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:37:19,288 p=11035 u=kalam n=ansible INFO| ec2-13-232-69-177.ap-south-1.compute.amazonaws.com : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-16 13:42:11,780 p=11100 u=kalam n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2025-10-16 13:42:11,781 p=11100 u=kalam n=ansible INFO| [DEPRECATION WARNING]: Passing `disable_lookups` to `template` is deprecated. This feature will be removed from ansible-core version 2.23.
+
+2025-10-16 13:42:11,801 p=11100 u=kalam n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-16 13:42:13,263 p=11100 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:42:13,277 p=11100 u=kalam n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2025-10-16 13:42:13,278 p=11100 u=kalam n=ansible INFO| TASK [Gathering Facts] *************************************************************************************************************************************
+2025-10-16 13:42:15,221 p=11100 u=kalam n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ec2-user@13.232.69.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+2025-10-16 13:42:15,221 p=11100 u=kalam n=ansible INFO| fatal: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ec2-user@13.232.69.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).", "unreachable": true}
+2025-10-16 13:42:15,222 p=11100 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:42:15,222 p=11100 u=kalam n=ansible INFO| ec2-13-232-69-177.ap-south-1.compute.amazonaws.com : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-10-16 13:46:19,297 p=11149 u=kalam n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2025-10-16 13:46:19,297 p=11149 u=kalam n=ansible INFO| [DEPRECATION WARNING]: Passing `disable_lookups` to `template` is deprecated. This feature will be removed from ansible-core version 2.23.
+
+2025-10-16 13:46:19,317 p=11149 u=kalam n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-16 13:46:20,393 p=11149 u=kalam n=ansible INFO| PLAY [Install Apache httpd on EC2] *************************************************************************************************************************
+2025-10-16 13:46:20,400 p=11149 u=kalam n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2025-10-16 13:46:20,401 p=11149 u=kalam n=ansible INFO| TASK [Gathering Facts] *************************************************************************************************************************************
+2025-10-16 13:46:33,305 p=11149 u=kalam n=ansible WARNING| [WARNING]: Host 'ec2-13-232-69-177.ap-south-1.compute.amazonaws.com' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.19/reference_appendices/interpreter_discovery.html for more information.
+
+2025-10-16 13:46:33,306 p=11149 u=kalam n=ansible INFO| ok: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]
+2025-10-16 13:46:33,320 p=11149 u=kalam n=ansible INFO| TASK [Install the latest version of Apache] ****************************************************************************************************************
+2025-10-16 13:46:59,389 p=11149 u=kalam n=ansible INFO| changed: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]
+2025-10-16 13:46:59,399 p=11149 u=kalam n=ansible INFO| TASK [Start and enable httpd service] **********************************************************************************************************************
+2025-10-16 13:47:07,123 p=11149 u=kalam n=ansible INFO| changed: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]
+2025-10-16 13:47:07,138 p=11149 u=kalam n=ansible INFO| TASK [Deploy HTML file] ************************************************************************************************************************************
+2025-10-16 13:47:16,638 p=11149 u=kalam n=ansible INFO| changed: [ec2-13-232-69-177.ap-south-1.compute.amazonaws.com]
+2025-10-16 13:47:16,639 p=11149 u=kalam n=ansible INFO| PLAY RECAP *************************************************************************************************************************************************
+2025-10-16 13:47:16,640 p=11149 u=kalam n=ansible INFO| ec2-13-232-69-177.ap-south-1.compute.amazonaws.com : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

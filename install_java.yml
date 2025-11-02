@@ -1,0 +1,20 @@
+- name: Install OpenJDK 11 on EC2
+  hosts: all
+  become: true
+  vars:
+    java_package: java-11-amazon-corretto-devel
+
+  tasks:
+    - name: Install OpenJDK 11
+      yum:
+        name: "{{ java_package }}"
+        state: present
+
+    - name: Verify Java installation
+      command: java -version
+      register: java_check
+      ignore_errors: true
+
+    - name: Show Java version
+      debug:
+        var: java_check.stdout_lines
